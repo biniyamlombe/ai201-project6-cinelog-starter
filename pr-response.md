@@ -54,7 +54,18 @@ For Milestone 4, I pasted `git log --oneline origin/main..HEAD` and asked whethe
 ![git log --oneline screenshot](docs/git-log-screenshot.png)
 
 ```
-(placeholder — refreshed in final docs commit)
+dd9be81 docs: document stretch features and UUID fix in PR response
+cd6d29e feat: add watchlist visibility toggle endpoint
+2575ce4 test: add duplicate film coverage for watchlist add
+f0771d6 test: add remove_from_watchlist coverage
+dc616d3 feat: add remove_from_watchlist matching collection pattern
+bc802bd fix: update WatchlistEntry film_id to UUID after main refactor
+77befda docs: add PR response with design decisions and git log screenshot
+3b828f9 test: add nonexistent film_id coverage for watchlist
+1aa41ca fix: sort watchlist by date added newest first
+ff8c52d fix: prevent duplicate films on watchlist add
+ca5d5a4 fix: rename save_to_watchlist to add_to_watchlist
+5965fb2 feat: add watchlist model and save_to_watchlist endpoint
 ```
 
 No merge commits. Each commit uses conventional prefixes and one logical change.
