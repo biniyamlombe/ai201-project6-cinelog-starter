@@ -54,6 +54,8 @@ For Milestone 4, I pasted `git log --oneline origin/main..HEAD` and asked whethe
 ![git log --oneline screenshot](docs/git-log-screenshot.png)
 
 ```
+df53ae7 docs: sync git log screenshot hashes
+f0df38f docs: refresh git log screenshot in PR response
 dd9be81 docs: document stretch features and UUID fix in PR response
 cd6d29e feat: add watchlist visibility toggle endpoint
 2575ce4 test: add duplicate film coverage for watchlist add
